@@ -28,16 +28,16 @@
      ```
 
   2. ```javascript
-     x = 7;
-     ```
-
-  3.  ```javascript
      let x;
      x = 7;
-     ```
-
-  4. ```javascript
+```
+     
+  3.  ```javascript
      let x = 7;
+     ```
+   
+  4. ```javascript
+     x = 7;
      ```
 
 <br>
