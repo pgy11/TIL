@@ -4,7 +4,7 @@
 
 1. `if`, `else if`, `else`
 
-   ```
+   ```javascript
    /*
    if(조건식1){
    	실행문1;
@@ -36,7 +36,7 @@
 
 2. `switch`
 
-   ```
+   ```javascript
    /*
    switch(표현식){
    	case 1:
@@ -88,7 +88,7 @@
 
 1. `while`
 
-   ```
+   ```javascript
    /*
    초기값;
    while(조건식){
@@ -113,7 +113,7 @@
 
    - while문은 조건을 만족해야만 실행문을 실행하지만, do while문은 실행을 먼저하고 그 다음에 조건을 고려한다.
 
-   ```
+   ```javascript
    /*
    초기값;
    do{
@@ -136,7 +136,7 @@
 
 3. `for`
 
-   ```
+   ```javascript
    /*
    for(초기값; 조건식; 증감식){
    	실핼문;
@@ -157,7 +157,7 @@
 
    - `continue` : 반복문안에 있는 실행문의 일부만 실행하고 싶을 때. 조건식을 이용해서 사용한다.
 
-     ```
+     ```javascript
      let sum = 0;
      let i;
      
@@ -172,7 +172,7 @@
 
    - `break` : 반복문 전부 돌지 않고 중간에 빠져나오고 싶을 때, 조건식을 이용해서 사용한다.
 
-     ```
+     ```javascript
      let sum = 0;
      let i;
      
