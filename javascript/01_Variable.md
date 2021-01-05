@@ -27,7 +27,7 @@
      x = 7;
      ```
 
-  2. ```js
+  2. ```javascript
      x = 7;
      ```
 
@@ -63,7 +63,7 @@
 
   1. `number` : 정수 or 실수
 
-     ```
+     ```javascript
      let x = 3;
      let y = 3.14;
      ```
@@ -74,7 +74,7 @@
 
      - `let 변수명 = '값'` or `let 변수명 = "값"`
 
-     ```
+     ```javascript
      let x = 'js';
      let y = "hello";
      ```
@@ -83,7 +83,7 @@
 
   3. `boolean` : 불리언, `true` or `false`
 
-     ```
+     ```javascript
      let x = true;
      let y = false;
      ```
@@ -112,11 +112,11 @@
 
 - `// `or `/**/ `사용
 
-  - ```
+  - ```javascript
     let x = 7; // 7을 변수 x에 할당
     ```
 
-  - ```
+  - ```javascript
     /*
     변수 x에
     7을 할당
