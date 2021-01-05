@@ -22,23 +22,27 @@
 
 - 변수에 값을 할당하는 방법
 
-  1. ```javascript
-     var x;
-     x = 7;
-     ```
+  ```javascript
+  let x = 7;
+  ```
 
-  2. ```javascript
-     let x;
-     x = 7;
-```
-     
-  3.  ```javascript
-     let x = 7;
-     ```
-   
-  4. ```javascript
-     x = 7;
-     ```
+  ```javascript
+  let x;
+  x = 7;
+  ```
+
+  ```javascript
+  var x;
+  x = 7;
+  ```
+
+  ```javascript
+  var x = 7;
+  ```
+
+  ```python
+  x = 7;
+  ```
 
 <br>
 
