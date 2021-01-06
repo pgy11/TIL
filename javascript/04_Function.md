@@ -3,25 +3,26 @@
 ### 1. 함수  기초
 
 - JavaScript는 모든 것이 객체로 되어있는데, 함수 역시 객체로 취급된다.
+
 - 정의
 
-```js
-/*
- function 함수명(parameter1, parameter2, ...){
- 	실행문;
- 	return data;
- }
-*/
+  ```javascript
+  /*
+   function 함수명(parameter1, parameter2, ...){
+   	실행문;
+   	return data;
+   }
+  */
+  
+  function add(x, y){
+      return x + y;
+  }
+  
+  let res = add(4,3);
+  console.log(res); // res === 7
+  ```
 
-function add(x, y){
-    return x + y;
-}
-
-let res = add(4,3);
-console.log(res); // res === 7
-```
-
-<br>
+  <br>
 
 - 0개 이상의 `parameter`를 가질 수 있다.
 
