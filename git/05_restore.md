@@ -21,7 +21,7 @@
    $ git restore --staged f.txt
    ```
 
-   
+   <br>
 
    - 구버전
 
@@ -30,7 +30,7 @@
    $ git reset HEAD f.txt
    ```
 
-   
+   <br>
 
    - 결과
 
@@ -45,7 +45,7 @@
    nothing added to commit but untracked files present (use "git add" to track)
    ```
 
-   
+   <br>
 
 2. 이전 commit으로 되돌아가기(Git commit 취소)
 
@@ -57,7 +57,7 @@
    e.g. $ git reset 0935e32
    ```
 
-   
+   <br>
 
    - 옵션
 
@@ -68,7 +68,7 @@
      $ git reset --mixed hash
      ```
 
-     
+     <br>
 
      - **--soft**
 
@@ -77,7 +77,7 @@
      $ git reset --soft [hash]
      ```
 
-     
+     <br>
 
      - **--hard**
 
@@ -86,7 +86,7 @@
      $ git reset --hard [hash]
      ```
 
-     
+     <br>
 
    - HEAD의 상대 위치를 이용한 commit 되돌리기
 
@@ -100,8 +100,8 @@
      $ git reset HEAD~
      ```
 
+<br>
 
-   
 
 3. WD(Working Directory) 변경 내용 취소하기, 복원
 

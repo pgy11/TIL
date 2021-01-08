@@ -13,7 +13,7 @@
     $ git branch login
     ```
 
-  
+  <br>
 
 -  `git switch [브랜치 명]` : `브랜치 명`을 갖는 branch로 이동한다.
 
@@ -23,19 +23,19 @@
   Switched to branch 'login'
   ```
 
-
+<br>
 
 - `git log --oneline --graph --all` 
 
   - 모든 브랜치들을 그래프와 함께 한 줄로 요약하여 보여준다. 
 
-  
+  <br>
 
 - `git switch -c login` : 브랜치를 만들면서 바로 이동한다.
 
   - `git branch login` + `git switch login`
 
-  
+  <br>
 
 - 구버전
 

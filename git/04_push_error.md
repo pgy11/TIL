@@ -20,7 +20,7 @@
   hint: See the 'Note about fast-forwards' in 'git push --help' for details.
   ```
 
-
+<br>
 
 - 위의 문제를 해결하기 위해, pull을 먼저 해야하는데, remote repository의 HEAD와 사용자의 HEAD가 다르기 때문에 병합을 해야한다.
 

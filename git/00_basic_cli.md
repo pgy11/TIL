@@ -7,6 +7,8 @@
    00_basic_cli.md  a.txt  b/  c.txt  d.txt  e.txt  images/  markdown.md
    ```
 
+   <br>
+
    `ls -al` : 상세 목록 조회
 
    ```bash
@@ -25,7 +27,7 @@
    -rw-r--r-- 1 Admin 197121 969 Dec 29 15:04 markdown.md
    ```
 
-   
+   <br>
 
 2. `cd` : 폴더 변경(chage directory)
 
@@ -37,20 +39,20 @@
 
       - `cd ..` : 상위 폴더로 이동
 
-      
+      <br>
 
 3. `mkdir` : 폴더 생성(make directory)
 
    - `mkdir A` : `A`이라는 폴더를 생성
 
-   
+   <br>
 
 4. `touch` : 파일 생성
 
    - `touch A.txt` : `A.txt` 파일을 생성 (빈 파일)
    - `mv A.txt C.txt` : `A.txt`파일의 이름을 `C.txt`로 변경
 
-   
+   <br>
 
 5. `Tab` : 자동 완성
 

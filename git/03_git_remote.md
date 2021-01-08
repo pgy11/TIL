@@ -12,7 +12,7 @@
     origin  https://github.com/pgy11/TIL.git (push)
     ```
 
-
+<br>
 
 + `git push [별칭] [브랜치이름]` : `별칭`으로 `브랜치`를 전송한다.
 + `git push origin main` `origin`으로 `main` 브랜치를 전송

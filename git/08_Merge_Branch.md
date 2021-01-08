@@ -22,7 +22,7 @@
    (main) $ git merge login
    ```
 
-   
+   <br>
 
    ```bash
    $ git log --oneline --graph --all
@@ -31,13 +31,13 @@
    * fc005c9 a.txt added
    ```
 
-   
+   <br>
 
 2. 3-Way Merge
 
    - 각작의 브랜치에서 작업하고 나서, 문제 없이 병합 된 경우
 
-   
+   <br>
 
 3. Merge Conflict
 
@@ -52,7 +52,7 @@
    
    ```
 
-   
+   <br>
 
    - READ.md 파일 내용
    - 어디서 충돌이 발생했는 지 알려줌 -> 이를 토대로, 팀원들 간의 합의가 필요하다.
@@ -65,7 +65,7 @@
    >>>>>>> signup
    ```
 
-   
+   <br>
 
    - 충돌 결과를 git status 명령어를 이용하여 출력
 

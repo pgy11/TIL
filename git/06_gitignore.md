@@ -5,13 +5,13 @@
   - 우리가 원하지 않은 파일들을 제외한다.
   - 외부에 공개되면 안되는 것들(key, secret)
 
-  
+  <br>
 
 - `.gitignore`
 
   - `.gitignore`에 작성된 파일들은 git으로 관리하지 않겠다.(ignore)
 
-  
+  <br>
 
 - 작성방법
 
@@ -24,7 +24,7 @@
   !profile.png # profile.png는 넣고
   ```
 
-  
+  <br>
 
 - 이미 commit을 한 파일들을 제외 시키는 방법
   1. `.gitignore`에다가 파일 명시
