@@ -7,5 +7,7 @@
 + [git](git)
 + [javascript](javascript)
 + [MVC pattern practice without GUI](https://github.com/pgy11/K-digital-training/tree/main/homework/todoMgrSystem)
++ [MVC pattern practice2 without GUI](https://github.com/pgy11/K-digital-training/tree/main/homework/ProductMgrSystem)
+  + 파이썬으로 구현
   + 실행시 [참고](https://github.com/pgy11/K-digital-training)
 
