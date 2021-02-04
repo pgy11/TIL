@@ -16,7 +16,7 @@
 
 - <a href='https://github.com/pgy11/K-digital-training/tree/main/homework/ProductMgrSystem'>MVC 패턴 실습2</a>
 
-- <a herf='https://github.com/pgy11/web1'>전자 도서관 홈페이지 구현(웹 과제)</a>
+- <a href='https://github.com/pgy11/web1'>전자 도서관 홈페이지 구현(웹 과제)</a>
 
 </details>
 
