@@ -2,10 +2,10 @@
 
 + <details>
       <summary>algorithm</summary>
+  - [백준](algorithm/백준/)
+  - [종만북](algorithm/종만북)
+  - [프로그래머스](algorithm/프로그래머스)
 
-      - [백준](algorithm/백준/)
-      - [종만북](algorithm/종만북)
-      - [프로그래머스](algorithm/프로그래머스)
   </details>
 
 + [git](git)
