@@ -1,14 +1,12 @@
 # Today I Learned.
 
-+ <details>
-      <summary>algorithm</summary>
-  <a href='algorithm/백준/'>백준</a><br/>
-  <a href='algorithm/종만북/'>종만북</a><br/>
-  <a href='algorithm/프로그래머스/'>프로그래머스</a>
+<details>
+    <summary>algorithm</summary>
+<a href='algorithm/백준/'>백준</a><br/>
+<a href='algorithm/종만북/'>종만북</a><br/>
+<a href='algorithm/프로그래머스/'>프로그래머스</a>
 
-  </details>
-
-  <br/>
+</details>
 
 + [git](git)
 + [javascript](javascript)
