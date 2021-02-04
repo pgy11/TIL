@@ -2,9 +2,9 @@
 
 + <details>
       <summary>algorithm</summary>
-  - [백준](algorithm/백준/)
-  - [종만북](algorithm/종만북)
-  - [프로그래머스](algorithm/프로그래머스)
+  <a href='algorithm/백준/'>백준</a>
+  <a href='algorithm/종만북/'>종만북</a>
+  <a href='algorithm/프로그래머스/'>프로그래머스</a>
 
   </details>
 
