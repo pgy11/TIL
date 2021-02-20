@@ -22,6 +22,8 @@
 
 <br/>
 
+### 3. 코드
+
 ```python
 answer = 0
 cols = []
