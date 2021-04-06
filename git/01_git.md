@@ -33,5 +33,10 @@
   
   + `git log --oneline --graph` : 그래프, 한줄 요약하여 기록을 조회
 
+<br>
+
+- `git rm -rf 파일명` : 파일 영구적으로 삭제한다.
+  - 이후 `commit`과 `push`를 하면, `remote repository`에도 반영된다. 
+
 
 
