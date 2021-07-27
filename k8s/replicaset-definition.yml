@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myapp-replicaset
+  label:
+    app: myapp
+    type: frond-end
+
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+      
+      spec:
+        containers:
+          - name: nginx-container
+          image: nginx
+  
+  replicas: 3
+
+  // replication controller와의 차이점
+  // replicaset은 selector을 요구한다.
+  selector:
+    matchLabel:
+      type: front-end
+
+// replicaset 생성
+// kubectl create -f replicaset-definition.yml
+
+// replicaset 조회
+// kubectl get replicaset
+
+// Labels과 selectors
+// replicaset은 수 많은 파드중 
+// matchLabel에 명시된 정보를 갖는 파드의 개수 = replicas에 명시된 값 보장
+
+// replicas를 변경 후 반영
+// kubectl replace -f replicaset-definition.yml
+// 또는 kubectl scale --replicas=6 -f replicaset-definition.yml
+// 또는 kubectl scale --replicas=6 replicaset(type) myapp-replicaset(name)
+
+// replicaset 삭제
+// kubectl delete replicaset myapp-replicaset

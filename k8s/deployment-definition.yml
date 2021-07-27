@@ -1,0 +1,40 @@
+apiversion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment
+  labels:
+    app:  myapp
+    type: front-end
+
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        labels:
+          app: myapp
+          type: frond-end
+        spec: 
+          containers:
+            - name: nginx-container
+              image: nginx
+  
+  replicas: 3
+  selector:
+    matchLabels:
+      type: frond-end
+
+// deployment 생성
+// kubectl create -f deployment-definition.yml
+
+// deployment 조회
+// kubectl get deployments
+
+// deployment?
+// deployment는 replicaset에서 한 걸음 더 나아가
+// pod들의 정보를 업데이트, 롤백 또는 중지, 시작, 배포를 할 수 있게한다.
+
+
+// deployment, replicaset, pod의 모든 정보 알기
+// kubectl get all

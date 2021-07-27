@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myapp-rc
+  labels:
+    app: myapp
+    type: front-end
+
+spec:
+  template:
+    // Pod 내용 기입
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx
+
+  replicas: 3
+
+// rc 생성하기
+// kubectl create -f rc-definition.yml
+
+// rc 조회하기
+// kubuctl get replicationcontroller
+
+// 아래의 명령을 입력하면 3개의 pod를 확인할 수 있다.
+// kubuctl get pods
