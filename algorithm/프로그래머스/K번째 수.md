@@ -10,6 +10,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
+
 class Solution {
         public int[] solution(int[] array, int[][] commands) {
             List<Integer> answer = new ArrayList<>();
